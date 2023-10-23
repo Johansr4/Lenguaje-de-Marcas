@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #sidebar {
+            text-align: left;
+            width: 250px;
+            background-color: blue;
+            color: black;
+            font-size: 24px;
+            position: absolute;
+            height: 100%;
+        }
+
+        #sidebar a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #content {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-size: 36px;
+            /* Aumentamos el espacio en la parte superior para las letras */
+            padding-bottom: 100px;
+            /* Añadimos espacio negro debajo del texto */
+        }
+
+        #texto {
+
+            background-color: white;
+            /* Puedes personalizar los estilos según tus preferencias */
+            text-align: left;
+            font-size: 18px;
+            margin-left: 250px;
+
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            /* Hace que todos los campos tengan el mismo ancho */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidebar">
+        MENU
+        <br>
+        <br>
+        <a target="_blank" href="FramesBolivia.html"> ¿Dónde estamos?</a>
+    </div>
+    <div id="content">
+        <span style="color: red;">B</span>
+        <span style="color: red;">o</span>
+        <span style="color: yellow;">l</span>
+        <span style="color: yellow;">i</span>
+        <span style="color: green;">v</span>
+        <span style="color: green;">i</span>
+        <span style="color: green;">a</span>
+    </div>
+    <div id="texto">
+        <form action="mailto:reclamos@gmail.com?subject=Pedido de Reparación" method="post" enctype="text/plain">
+            <fieldset>
+                <br>
+                <h2><b>Formulario de contacto</b></h2>
+                <p>Dejenos saber sus preguntas, sugerencias o preocupaciones llenando el formulario de contacto debajo</p>
+                <hr>
+                <br><br>
+                <label for="nombre">Nombre Completo</label><br>
+                <input type="text" placeholder="Nombre" id="nombre" name="Nombre">
+                <input type="text" placeholder="Apellido" id="apellido" name="apellido"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email"><br><br>
+                <label for="telefono">Teléfono</label><br>
+                <input placeholder="## #### ####" type="tel" name="telefono"><br><br>
+                <label for="select">Asunto de mensaje</label><br><br>
+                <select name="asunto" id="select">
+                    <option value="Consulta">Consulta</option>
+                    <option value="Incidencia">Incidencia</option>
+                    <option value="MAS">MAS</option>
+                </select>
+                <br><br>
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Enviar"><br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

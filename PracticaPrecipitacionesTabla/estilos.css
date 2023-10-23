@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    text-align: left;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+
+th {
+    background-color: rgb(61, 159, 219); /* Cambia el fondo a azul claro */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+
+/* Aplica estilo para la primera columna (ciudades) */
+td:first-child {
+    background-color: rgb(61, 159, 219); /* Cambia el fondo a azul claro */
+    color: yellow; /* Cambia el color del texto a amarillo */
+    font-size: 20px;
+}
+
+/* Aplica estilo de fondo naranja solo a los números en las celdas <td> */
+td:not(.blanco):not(:first-child) {
+    background-color: lightsalmon; /* Cambia el fondo a naranja */
+    color: black; /* Cambia el color del texto a negro */
+    border: 1px solid black; /* Agrega borde negro a los números */
+}
+
+

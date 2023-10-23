@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px; /* Agregar un relleno para separar los elementos del borde de la ventana */
+        }
+
+        .left {
+            flex: 1; /* Ocupa el 50% del ancho disponible */
+            text-align: center;
+        }
+
+        h1 {
+            background-color: turquoise;
+            font-size: 40px; /* Tamaño de fuente más pequeño */
+            padding: 20px; /* Espacio alrededor del título */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%; /* Ajustar la altura del mapa */
+            border: none;
+        }
+
+        .right {
+            flex: 1; /* Ocupa el 50% del ancho disponible */
+            text-align: center;
+            
+        }
+
+        .imagen img {
+            max-width: 40%; /* Asegurar que la imagen no se extienda más allá del contenedor */
+        }
+
+        .tabla iframe {
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <h1>Frames con Maps</h1>
+        <iframe name="iframe-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.7019358678986!2d-1.1474258000000093!3d38.00741230000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63819baae4321b%3A0x7a6261663713684!2sCesur%20Murcia%20Audiovisual%20-%20Formaci%C3%B3n%20Profesional!5e0!3m2!1ses!2ses!4v1696273968911!5m2!1ses!2ses" width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="right">
+        <div class="imagen">
+            <a href="https://www.google.es/maps/place/Ayuntamiento+de+Murcia/@37.9834145,-1.1302896,17z/data=!3m1!4b1!4m6!3m5!1s0xd63821d088134a5:0xcdfa1add0c0b42a5!8m2!3d37.9834145!4d-1.1302896!16s%2Fg%2F1hm69xb_k?entry=ttu" frameborder="0" style="height: 100px;" target="_blank">
+                <img src="https://www.aema-rm.org/wp-content/uploads/2020/09/logo-ayto-murcia.jpg" alt="Ayuntamiento de Murcia">
+            </a>
+        </div>
+
+        <div class="tabla">
+            <iframe name="iframe-Tablas" src="Tablas.html" frameborder="0" style="height: 500px;"></iframe>
+        </div>
+    </div>
+</body>
+</html>

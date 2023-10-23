@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patatas fritas</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%; /* Ancho al 100% del contenedor */
+            height: auto;  /* Altura automática para mantener la proporción */
+        }
+        section {
+            text-align: left;
+        }
+        table {
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000; 
+            padding: 8px;
+            text-align: center;
+            width: 33.33%; /* Igual ancho para todas las columnas */
+        }
+        table img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Centrar las imágenes horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <h1>Patatas fritas</h1>
+    <h2>Receta</h2>
+    <img src="https://www.cocinatis.com/archivos/202207/como-hacer-patatas-fritas-crujientes_desktop_horizontal_full_width.jpg" alt="Patatas fritas">
+    <section>
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>3 o 4 patatas (300g)</li>
+            <li>4 dientes de ajo</li>
+            <li>Aceite de oliva</li>
+            <li>Sal</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Elaboración (pasos)</h3>
+        <ol>
+            <li>Calentar aceite</li>
+            <li>Añadir las patatas cortadas, la sal y los ajos</li>
+            <li>Freír al gusto</li>
+            <li>Servir en el plato</li>
+        </ol>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Color</th>
+                    <th>Foto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Lamborghini huracan</td>
+                    <td>Amarillo</td>
+                    <td><a href="https://es.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"><img src="https://www.topgear.com/sites/default/files/images/news-article/carousel/2020/01/64d8c24b2ca28ab3231a375858a3958d/554573.jpg" alt="Lambo huracan"></a></td>
+                </tr>
+                <tr>
+                    <td>Verde</td>
+                    <td><a target="_BLANK" href="https://es.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"><img src="https://images.carexpert.com.au/resize/3000/-/app/uploads/2022/04/lamborghini-huracan-tecnica-8.jpg" alt="Lambo huracan"></a></td>
+                </tr>
+                <tr>
+                    <td>Ferrari</td>
+                    <td>Rojo</td>
+                    <td><a target="_BLANK" href="https://es.wikipedia.org/wiki/Ferrari_458_Italia"><img src="https://cdn.ferrari.com/cms/network/media/img/resize/5db1711248ab400ab442f424-ferrari-458-spider-design-focus-2" alt="Ferrari"></a></td>
+                </tr>
+                <tr>
+                    <td>Porsche</td>
+                    <td>Negro</td>
+                    <td><a target="_BLANK" href="https://es.wikipedia.org/wiki/Porsche_911"><img src="https://www.gtopen.net/uploads/news/Porsche-911-GT3-R_14.jpg" alt="Porsche 911"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

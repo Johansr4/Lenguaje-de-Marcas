@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos básicos</title>
+</head>
+<body>
+    <form action="mailto:juan07ruiz07@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>
+        </fieldset>
+
+        <label for="select">Asunto de mensaje:</label>
+        <select name="asunto" id="select">
+            <option value="Contacto">Contacto</option>
+            <option value="Incidencia">Incidencia</option>
+            <option value="MAS">MAS</option>
+        </select>
+
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+
+        <label for="socio">Eres socio?</label>
+        <input type="radio" name="socio" value="NO" checked> NO
+        <input type="radio" name="socio" value="SI"> SI<br>
+
+        <label for="suscribirte">Deseas suscribirte al boletín de noticias?</label>
+        <input type="checkbox" name="suscribirte" value="SI" checked> Sí
+
+        <input type="submit" value="Enviar"><br>
+    </form>
+</body>
+</html>
