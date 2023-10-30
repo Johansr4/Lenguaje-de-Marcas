@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 5</title>
+    <link rel="stylesheet" href="estilopractica5.css">
+</head>
+<body>
+
+    <h1>la tienda de alta. formulario de alta</h1>
+
+    <form action="mailto:juan07ruiz07@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            
+            <legend>datos personales</legend>
+            <label for="nif">nif:</label>
+            <input type="text" id="nif" name="nif"><br><br>
+
+            <label for="nombre">nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="direccion">dirección:</label>
+            <input type="text" id="direccion" name="direccion"><br><br>
+
+            <label for="fechanacimiento">fecha de nac.:</label>
+            <input type="text" id="fechanacimiento" name="fechanacimiento">
+
+            <label for="telefono">teléfono:</label>
+            <input type="text" id="telefono" name="telefono"><br><br>
+
+            <label for="localidad">localidad:</label>
+            <input type="text" id="localidad" name="localidad">
+
+            <label for="provincia">provincia:</label>
+            <input type="text" id="provincia" name="provincia">
+
+            <label for="codigopostal">cp:</label>
+            <input type="text" id="codigopostal" name="codigopostal"><br><br>
+
+            <label for="email">email:</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="confirmarpassword">confirmar:</label>
+            <input type="password" id="confirmarpassword" name="confirmarpassword"><br><br>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <label for="idiomapreferido">idioma preferido:</label>
+            <br>
+            <select name="idiomapreferido" id="idiomapreferido" size="3">
+                <option value="español">español</option>
+                <option value="inglés">inglés</option>
+                <option value="indiferente">indiferente</option>
+            </select>
+
+            <br>
+            <br>
+
+            <legend>datos musicales</legend>
+            <label>tipo de música:</label><br>
+            <input type="checkbox" name="tipomusica" id="pop" value="pop">
+            <label for="pop">pop</label>
+            <input type="checkbox" name="tipomusica" id="rock" value="rock">
+            <label for="rock">rock</label><br>
+            <input type="checkbox" name="tipomusica" id="folk" value="folk">
+            <label for="folk">folk</label>
+            <input type="checkbox" name="tipomusica" id="clasica" value="clasica">
+            <label for="clasica">clasica</label><br>
+            <label for="otro">otras:</label>
+            <input type="text" name="otrotipomusica" id="otrotipomusica">
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>forma de pago</legend>
+            <label>
+                <input type="radio" name="formapago" value="contrareembolso" checked> contrareembolso
+            </label>
+            <label>
+                <input type="radio" name="formapago" value="contarjeta"> con tarjeta
+            </label>
+
+            <br>
+            <br>
+
+            <label for="tarjeta">numero de tarjeta:</label>
+            <input type="text" name="numerotarjeta" id="tarjeta">
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar"> 
+    </form>
+</body>
+</html>

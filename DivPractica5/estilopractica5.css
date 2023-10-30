@@ -1,5 +1,15 @@
-body{
+/* Estilos generales */
+body {
     background-color: rgb(58, 147, 236);
+    text-transform: capitalize;
+    text-align: center; /* Centra el texto en el cuerpo de la página */
+}
+
+/* Estilos para los fieldsets (excepto legend) */
+fieldset:not(legend) {
+    text-align: left; /* Restaura la alineación izquierda para el contenido del fieldset */
+    margin: 0 auto; /* Centra el fieldset en la página */
+    width: 50%; /* Ajusta el ancho del fieldset según tus preferencias */
 }
 
 /* Agrega este código en tu archivo estilopractica5.css */
@@ -20,8 +30,7 @@ fieldset:first-of-type input {
     color: yellow;
 }
 
-h1{
-    text-align: center;
+h1 {
     font-family: Arial;
     color: blue;
 }
@@ -32,12 +41,28 @@ legend {
     color: white;
 }
 
-
 label {
     font-family: Garamond;
     font-size: 1.2em;
 }
 
+/* Estilos para las cajas de texto */
+input[type="text"],
+input[type="password"] {
+    text-transform: uppercase;
+    color: yellow;
+}
 
+/* Estilos para los botones de envío y borrado */
+input[type="submit"],
+input[type="reset"] {
+    font-family: Garamond, serif;
+    font-size: 1.1em;
+    background-color: rgb(200, 200, 200);
+}
 
-
+.datos{
+    text-align: center; /* Centra el contenido del div horizontalmente */
+    margin: 0 auto; /* Centra el div en la página horizontalmente */
+    max-width: 80%; /* Ajusta el ancho máximo del div según tus preferencias */
+}
