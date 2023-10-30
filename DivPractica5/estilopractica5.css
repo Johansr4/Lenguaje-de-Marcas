@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(58, 147, 236);
+}
+
+/* Agrega este código en tu archivo estilopractica5.css */
+fieldset:first-of-type input {
+    background-color: blue;
+    color: yellow;
+}
+
+/* Agrega este código en tu archivo estilopractica5.css */
+#otroTipoMusica {
+    background-color: rgb(11, 11, 126);
+    color: yellow;
+}
+
+/* Agrega este código en tu archivo estilopractica5.css */
+#tarjeta {
+    background-color: blue;
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+    color: blue;
+}
+
+/* Agrega este código en tu archivo estilopractica5.css */
+legend {
+    background-color: rgb(55, 199, 207);
+    color: white;
+}
+
+
+label {
+    font-family: Garamond;
+    font-size: 1.2em;
+}
+
+
+
+
