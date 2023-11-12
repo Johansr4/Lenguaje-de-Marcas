@@ -8,10 +8,16 @@
 </head>
 <body>
 
+
+
+
+
+    
+
     <h1>la tienda de alta. formulario de alta</h1>
 
     <form action="mailto:juan07ruiz07@gmail.com" method="post" enctype="text/plain">
-        <fieldset>
+        <fieldset class="primero">
             
             <legend>datos personales</legend>
             <label for="nif">nif:</label>
@@ -50,49 +56,66 @@
 
         <br><br>
 
-        <fieldset>
-            <label for="idiomapreferido">idioma preferido:</label>
-            <br>
-            <select name="idiomapreferido" id="idiomapreferido" size="3">
-                <option value="español">español</option>
-                <option value="inglés">inglés</option>
-                <option value="indiferente">indiferente</option>
-            </select>
+        <fieldset class="segundo">
+            <div class="idioma-preferido">
+                <label for="idiomapreferido">Idioma preferido:</label><br>
+                <div class="select-wrapper">
+                    <select name="idiomapreferido" id="idiomapreferido" size="3">
+                        <option value="español">español</option>
+                        <option value="inglés">inglés</option>
+                        <option value="indiferente">indiferente</option>
+                    </select>
+                </div>
+            </div>
+            
 
             <br>
             <br>
 
+            
             <legend>datos musicales</legend>
-            <label>tipo de música:</label><br>
-            <input type="checkbox" name="tipomusica" id="pop" value="pop">
-            <label for="pop">pop</label>
-            <input type="checkbox" name="tipomusica" id="rock" value="rock">
-            <label for="rock">rock</label><br>
-            <input type="checkbox" name="tipomusica" id="folk" value="folk">
-            <label for="folk">folk</label>
-            <input type="checkbox" name="tipomusica" id="clasica" value="clasica">
-            <label for="clasica">clasica</label><br>
-            <label for="otro">otras:</label>
-            <input type="text" name="otrotipomusica" id="otrotipomusica">
+
+            <div class="tipomusica">
+                <label>tipo de música:</label><br>
+                <div class="tipomusica2">
+                    <input type="checkbox" name="tipomusica" id="pop" value="pop">
+                    <label for="pop">pop</label>
+                    <input type="checkbox" name "tipomusica" id="rock" value="rock">
+                    <label for="rock">rock</label><br>
+                    <input type="checkbox" name="tipomusica" id="folk" value="folk">
+                    <label for="folk">folk</label>
+                    <input type="checkbox" name="tipomusica" id="clasica" value="clasica">
+                    <label for="clasica">clasica</label><br>
+                    <label for="otro">otras:</label>
+                    <input type="text" name="otrotipomusica" id="otrotipomusica">
+                </div>
+            </div>
+
+
+
         </fieldset>
 
         <br><br>
 
-        <fieldset>
+        <fieldset class="tercero">
             <legend>forma de pago</legend>
-            <label>
-                <input type="radio" name="formapago" value="contrareembolso" checked> contrareembolso
-            </label>
-            <label>
-                <input type="radio" name="formapago" value="contarjeta"> con tarjeta
-            </label>
-
-            <br>
-            <br>
-
-            <label for="tarjeta">numero de tarjeta:</label>
-            <input type="text" name="numerotarjeta" id="tarjeta">
+        
+            <div class="formapago">
+                <label>
+                    <input type="radio" name="formapago" value="contrareembolso" checked> contrareembolso
+                </label>
+                <label>
+                    <input type="radio" name="formapago" value="contarjeta"> con tarjeta
+                </label>
+        
+                <br>
+                <br>
+        
+                <label for="tarjeta">numero de tarjeta:</label>
+                <input type="text" name="numerotarjeta" id="tarjeta">
+            </div>
         </fieldset>
+        
 
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpiar"> 
