@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registro xmlns:evento="localhost/evento.com" xmlns:libro="localhost/libro.com">
+    <evento:informacion>
+        <id>1</id>
+        <nombre>Evento A</nombre>
+        <descripcion>Descripción del Evento A</descripcion>
+    </evento:informacion>
+    <informacion>
+        <id>101</id>
+        <nombre>Información 1</nombre>
+        <descripcion>Descripción de la Información 1</descripcion>
+    </informacion>
+    <informacion>
+        <id>102</id>
+        <nombre>Información 2</nombre>
+        <descripcion>Descripción de la Información 2</descripcion>
+    </informacion>
+    <informacion>
+        <id>103</id>
+        <nombre>Información 3</nombre>
+        <descripcion>Descripción de la Información 3</descripcion>
+    </informacion>
+    <informacion>
+        <id>104</id>
+        <nombre>Información 4</nombre>
+        <descripcion>Descripción de la Información 4</descripcion>
+    </informacion>
+</registro>

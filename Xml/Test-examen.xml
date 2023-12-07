@@ -1,0 +1,152 @@
+<red_bibliotecas>
+    <biblioteca>
+        <nombre>Biblioteca Central</nombre>
+        <direccion>Avenida Principal, Ciudad Principal</direccion>
+        <salas_estudio>
+            <sala>
+                <nombre>Sala de Estudio 1</nombre>
+                <capacidad>60</capacidad>
+                <estantes>
+                    <estante id="1">
+                        <tema>Ficción Científica</tema>
+                        <libros>
+                            <libro>
+                                <titulo>El Fin de la Eternidad</titulo>
+                                <fecha_publicacion>1955-06-01</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Isaac Asimov</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1920</año>
+                                            <mes>01</mes>
+                                            <dia>02</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Neuromante</titulo>
+                                <fecha_publicacion>1984-07-01</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>William Gibson</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1948</año>
+                                            <mes>03</mes>
+                                            <dia>17</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                    <estante id="2">
+                        <tema>Historia</tema>
+                        <libros>
+                            <libro>
+                                <titulo>Los Pilares de la Tierra</titulo>
+                                <fecha_publicacion>1989-10-02</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Ken Follett</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1949</año>
+                                            <mes>06</mes>
+                                            <dia>05</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Un Mundo Sin Fin</titulo>
+                                <fecha_publicacion>2007-10-09</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Ken Follett</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1949</año>
+                                            <mes>06</mes>
+                                            <dia>05</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                </estantes>
+            </sala>
+            <sala>
+                <nombre>Sala de Estudio 2</nombre>
+                <capacidad>50</capacidad>
+                <estantes>
+                    <estante id="1">
+                        <tema>Arte</tema>
+                        <libros>
+                            <libro>
+                                <titulo>Historia del Arte</titulo>
+                                <fecha_publicacion>2000-05-15</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>John Smith</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1975</año>
+                                            <mes>03</mes>
+                                            <dia>12</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Pintura Contemporánea</titulo>
+                                <fecha_publicacion>2015-11-20</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Maria Rodriguez</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1980</año>
+                                            <mes>08</mes>
+                                            <dia>28</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                    <estante id="2">
+                        <tema>Ciencia</tema>
+                        <libros>
+                            <libro>
+                                <titulo>El Universo en una Cáscara de Nuez</titulo>
+                                <fecha_publicacion>2001-11-29</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Stephen Hawking</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1942</año>
+                                            <mes>01</mes>
+                                            <dia>08</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Ciencia para Principiantes</titulo>
+                                <fecha_publicacion>2018-03-10</fecha_publicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Laura García</nombre>
+                                        <fecha_nacimiento>
+                                            <año>1985</año>
+                                            <mes>09</mes>
+                                            <dia>16</dia>
+                                        </fecha_nacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                </estantes>
+            </sala>
+        </salas_estudio>
+    </biblioteca>
+</red_bibliotecas>

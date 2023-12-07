@@ -1,0 +1,70 @@
+/* estilo.css */
+
+body {
+    background-color: #56595F;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    border-bottom: 3px solid white;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #56595F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 150px;
+    border: 3px solid white;
+    margin: 10px;
+}
+
+.subtitle {
+    margin-top: 50px;
+    border-top: 20px solid white;
+    padding-top: 20px;
+}
+
+#menu {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.imagen-derecha {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+.imagen-izquierda {
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.imagen-abajo-derecha {
+    float: right;
+    clear: both;
+    margin: 10px 0 10px 10px;
+}

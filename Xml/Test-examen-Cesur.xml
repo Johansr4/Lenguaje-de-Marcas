@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registro xmlns:profesor="localhost/profesor.com" xmlns:alumno="localhost/alumno.com">
+    <alumno:nombre>Isabel Martínez</alumno:nombre>
+    <alumno:nombre>Pablo Serrano</alumno:nombre>
+    <alumno:nombre>Laura Gómez</alumno:nombre>
+    <profesor:nombre>Ricardo Vargas</profesor:nombre>
+    <profesor:nombre>Sofía Ramírez</profesor:nombre>
+</registro>
