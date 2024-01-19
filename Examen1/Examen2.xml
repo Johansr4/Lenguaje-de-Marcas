@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registro xmlns:libro="localhost/libro.com" xmlns:escritor="localhost/escritor.com" xmlns:feria="localhost/feria.com">
+    <feria:libros>
+        <libro:informacion>
+            <libro:id>1</libro:id>
+            <libro:nombre>Libro A</libro:nombre>
+            <libro:descripcion>Descripción A</libro:descripcion>
+        </libro:informacion>
+        <libro:informacion>
+            <libro:id>2</libro:id>
+            <libro:nombre>Libro B</libro:nombre>
+            <libro:descripcion>Descripción B</libro:descripcion>
+        </libro:informacion>
+        <libro:informacion>
+            <libro:id>3</libro:id>
+            <libro:nombre>Libro C</libro:nombre>
+            <libro:descripcion>Descripción C</libro:descripcion>
+        </libro:informacion>
+    </feria:libros>
+    <feria:escritores>
+        <escritor:informacion>
+            <escritor:id>1</escritor:id>
+            <escritor:nombre>Escritor AA</escritor:nombre>
+            <escritor:descripcion>Descripción AA</escritor:descripcion>
+        </escritor:informacion>
+        <escritor:informacion>
+            <escritor:id>2</escritor:id>
+            <escritor:nombre>Escritor BB</escritor:nombre>
+            <escritor:descripcion>Descripción BB</escritor:descripcion>
+        </escritor:informacion>
+        <escritor:informacion>
+            <escritor:id>3</escritor:id>
+            <escritor:nombre>Escritor CC</escritor:nombre>
+            <escritor:descripcion>Descripción CC</escritor:descripcion>
+        </escritor:informacion>
+    </feria:escritores>
+</registro>

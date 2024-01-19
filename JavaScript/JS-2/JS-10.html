@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantalla JS</title>
+  <script>
+    function pantalla() {
+
+        var screenInfo = window.screen;
+
+      var titulo = "Ejemplo 12 - Información de la pantalla";
+      var alturaTotal = screenInfo.height;
+      var alturaDisponible = screenInfo.availHeight;
+      var anchoTotal = screenInfo.width;
+      var anchoDisponible = screenInfo.availWidth;
+
+      var contenido = titulo + "<br><br>" +
+                      "Altura total de la pantalla: " + alturaTotal + " pixels<br><br>" +
+                      "Altura disponible: " + alturaDisponible + " pixels <br><br>" +
+                      "Ancho total de la pantalla: " + anchoTotal + " pixels<br><br>" +
+                      "Ancho disponible: " + anchoDisponible + " pixels";
+
+      document.body.innerHTML = contenido;
+    }
+
+    window.onload = pantalla;
+  </script>
+</head>
+<body>
+</body>
+</html>

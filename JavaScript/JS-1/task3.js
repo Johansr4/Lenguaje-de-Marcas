@@ -1,0 +1,1 @@
+            console.log("¡La consola web está activada! Puedes ver este mensaje en la consola.")

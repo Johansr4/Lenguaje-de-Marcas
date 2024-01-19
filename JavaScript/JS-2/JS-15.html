@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejemplo 17 Insertar un nodo hijo delante de...</title>
+</head>
+<body>
+    <ul>
+        <li>Programación</li>
+        <li>Bases de datos</li>
+        <li>Sistemas Informáticos</li>
+    </ul>
+
+    <script>
+        var nuevoItem = document.createElement("li");
+        nuevoItem.textContent = "Lenguaje de marcas";
+    
+        var segundoItem = document.querySelector("ul li:nth-child(2)");
+    
+        segundoItem.parentNode.insertBefore(nuevoItem, segundoItem);
+    </script>
+    
+</body>
+</html>

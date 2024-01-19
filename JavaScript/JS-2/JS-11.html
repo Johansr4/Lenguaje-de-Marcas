@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El País</title>
+</head>
+<body>
+
+<button onclick="preguntar()">Ir a (El País)</button>
+
+<script>
+function preguntar() {
+  var respuesta = window.confirm("Deseas ir a  El País?");
+
+  // Verificamos la respuesta del usuario
+  if (respuesta) {
+    window.location.href = "https://elpais.com/";
+  } else {
+    alert("No verás las noticias");
+  }
+}
+</script>
+
+</body>
+</html>

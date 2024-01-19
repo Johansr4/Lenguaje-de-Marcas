@@ -1,0 +1,166 @@
+<sucursales>
+    <sucursal>
+        <nombre>Sucursal Principal</nombre>
+        <ubicacion>Avenida x,Ciudad X</ubicacion>
+        <departamentos>
+            <departamento>
+                <nombre>Estudio</nombre>
+                <num_empleados>15</num_empleados>
+                <empleados>
+                    <empleado>
+                        <nombre>John</nombre>
+                        <edad>30</edad>
+                        <posicion>QA</posicion>
+                        <roles>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                        </roles>
+                    </empleado>
+                    <empleado>
+                        <nombre>John</nombre>
+                        <edad>30</edad>
+                        <posicion>QA</posicion>
+                        <roles>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                        </roles>
+                    </empleado>
+                </empleados>
+            </departamento>
+        </departamentos>
+    </sucursal>
+    <sucursal>
+        <nombre>Sucursal Principal</nombre>
+        <ubicacion>Avenida x,Ciudad X</ubicacion>
+        <departamentos>
+            <departamento>
+                <nombre>Estudio</nombre>
+                <num_empleados>15</num_empleados>
+                <empleados>
+                    <empleado>
+                        <nombre>John</nombre>
+                        <edad>30</edad>
+                        <posicion>QA</posicion>
+                        <roles>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                        </roles>
+                    </empleado>
+                    <empleado>
+                        <nombre>John</nombre>
+                        <edad>30</edad>
+                        <posicion>QA</posicion>
+                        <roles>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                            <rol>
+                                <nombre>Analista</nombre>
+                                <nivel_responsabilidad>2</nivel_responsabilidad>
+                                <proyectos>
+                                    <proyecto>
+                                        <nombre>Proyecto A</nombre>
+                                        <fecha_entrega>2023-05-01</fecha_entrega>
+                                    </proyecto>
+                                    <proyecto>
+                                        <nombre>Proyecto B</nombre>
+                                        <fecha_entrega>2023-05-02</fecha_entrega>
+                                    </proyecto>
+                                </proyectos>
+                            </rol>
+                        </roles>
+                    </empleado>
+                </empleados>
+            </departamento>
+        </departamentos>
+    </sucursal>
+</sucursales>
