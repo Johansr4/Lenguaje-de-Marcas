@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio de JavaScript Nuevo</title>
+</head>
+<body>
+    
+    <h1>Ejercicio de Manipulación del DOM con JavaScript</h1>
+    <p>Primer párrafo.</p>
+    <p>Segundo párrafo.</p>
+
+    <button id="btnVerde">Fondo Verde</button>
+    <button id="btnRojo">Texto Rojo</button>
+
+    <img id="imagenMuestra" src="ubi.png" alt="muestra 1">
+    <button id="btnCambiarImagen">Cambiar Imagen</button>
+
+    <p id="mensaje"></p>
+
+    <script>
+        document.getElementById("btnVerde").addEventListener("click", function() {
+            var parrafos = document.getElementsByTagName("p");
+            for (var i = 0; i < parrafos.length; i++) {
+                parrafos[i].style.backgroundColor = "green";
+            }
+        });
+
+        document.getElementById("btnRojo").addEventListener("click", function() {
+            var parrafos = document.getElementsByTagName("p");
+            for (var i = 0; i < parrafos.length; i++) {
+                parrafos[i].style.color = "red";
+            }
+        });
+
+        document.getElementById("btnCambiarImagen").addEventListener("click", function() {
+            var imagen = document.getElementById("imagenMuestra");
+            imagen.src = "tuerca.png"; 
+            imagen.alt = "muestra 2"; 
+        });
+    </script>
+</body>
+</html>

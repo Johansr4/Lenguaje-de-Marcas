@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interacción con Elementos de Lista</title>
+    <style>
+        .seleccionado {
+            font-weight: bold;
+            color: verde;
+        }
+    </style>
+</head>
+
+<body onload="inicializarEvento()">
+
+    <article>
+        <h2>Interactúa con los Elementos de la Lista</h2>
+        <ul>
+            <li id="1">Ítem 1: Haz clic en mí para cambiar mi estilo.</li>
+            <li>Ítem 2: No cambiaré al hacer clic.</li>
+            <li>Ítem 3: Tampoco responderé a clics.</li>
+        </ul>
+    </article>
+
+    <script>
+        function inicializarEvento() {
+            var primero = document.getElementById("1");
+
+            primero.addEventListener("click", function () {
+                primero.classList.add("seleccionado");
+                primero.removeEventListener("click", arguments.callee);
+            });
+        }
+    </script>
+
+</body>
+
+</html>

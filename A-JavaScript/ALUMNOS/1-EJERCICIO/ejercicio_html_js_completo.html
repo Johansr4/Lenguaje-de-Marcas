@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio de JavaScript</title>
+</head>
+<body>
+    <h1>Practicando JavaScript para Manipulación del DOM</h1>
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Este es el tercer párrafo.</p>
+    <p>Este es el cuarto párrafo.</p>
+
+    <script>
+        window.onload = function() {
+            function actualizar() {
+                var primerParra = document.querySelector('p');
+                primerParra.textContent = "Texto actualizado";
+
+                var nuevoParra = document.createElement('p');
+                nuevoParra.textContent = "Nuevo parrafo creado";
+                nuevoParra.style.backgroundColor = "yellow";
+
+                document.body.appendChild(nuevoParra);
+
+                var parrafos = document.querySelectorAll('p');
+
+                if (parrafos.length >= 4) {
+                    var cuartoParra = parrafos[3];
+                    cuartoParra.parentNode.removeChild(cuartoParra);
+                }
+            }
+
+            var botonActualizar = document.createElement('button');
+            botonActualizar.textContent = "ACTUALIZAR";
+            botonActualizar.onclick = actualizar;
+            document.body.appendChild(botonActualizar);
+
+            var lista = document.createElement('ul');
+            for (var i = 1; i <= 5; i++) {
+                var item = document.createElement('li');
+                item.textContent = "Ítem " + i;
+                lista.appendChild(item);
+            }
+            document.body.appendChild(lista);
+
+            var items = document.querySelectorAll('li');
+
+            if (items.length >= 3) {
+                items[2].textContent = " Tercer elemento de la lista creado";
+            }
+        };
+    </script>
+</body>
+</html>
